@@ -187,7 +187,7 @@
             
         
           <h1 id="最小生成树prim的学习"><a href="#最小生成树prim的学习" class="headerlink" title="最小生成树prim的学习"></a>最小生成树prim的学习</h1><h2 id="算法描述"><a href="#算法描述" class="headerlink" title="算法描述"></a>算法描述</h2><p>在如下的无向连接图中，每条边都有不同的权值，构造出权值之和最小的连接图。</p>
-<p><img src="/2020/03/19/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91prim%E7%9A%84%E5%AD%A6%E4%B9%A0-1/%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91prim%E7%9A%84%E5%AD%A6%E4%B9%A0-1%5C%E6%9C%80%E5%B0%8F%E7%94%9F%E6%88%90%E6%A0%91prim%E7%9A%84%E5%AD%A6%E4%B9%A0.png" alt="图1"></p>
+<p><img src="public/img/最小生成树prim的学习.png" alt="图1"></p>
 <hr>
 <h2 id="算法思路"><a href="#算法思路" class="headerlink" title="算法思路"></a>算法思路</h2><p>连接图的点集合VE为VE={1,2,3,4}，选取图中的第一个节点加入集合V中，即V={1}，剩下的点在集合SV={2,3,4}。选取集合V和集合SV能连接起来的权值最小的边，即edge(1,2)。然后各集合变化后为V={1,2}，SV={3,4}。依次重复上述操作，直至集合V={1,2,3,4}，集合SV为空。</p>
 <hr>
